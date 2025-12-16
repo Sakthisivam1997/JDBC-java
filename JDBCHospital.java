@@ -136,7 +136,8 @@ public class JDBCHospital {
                         st2.close();
                         break;
 
-                    case 7: // EXIT running = true;
+                    case 7: 
+						EXIT running = true;
                         System.out.println("Exiting...");
                         break;
 
